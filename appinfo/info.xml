@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>mikanauth</id>
+    <name>Mikan Auth</name>
+    <types>
+        <authentication/>
+    </types>
+    <summary>Authenticate with mikan</summary>
+    <description><![CDATA[Authenticate users with mikan token.]]></description>
+    <licence>agpl</licence>
+    <author>Eleven-Lines</author>
+    <version>0.0.1</version>
+    <namespace>MikanAuth</namespace>
+    <category>tools</category>
+    <bugs>https://github.com/Eleven-Lines/nc-mikanauth</bugs>
+    <dependencies>
+        <owncloud min-version="9.2"/>
+        <nextcloud min-version="11" max-version="11"/>
+    </dependencies>
+</info>
